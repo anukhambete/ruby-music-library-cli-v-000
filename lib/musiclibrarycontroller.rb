@@ -122,6 +122,7 @@ class MusicLibraryController
   
   def play_song
   puts "Which song number would you like to play?"
+<<<<<<< HEAD
   
   ip = gets.strip
   ip = ip.to_i
@@ -137,6 +138,10 @@ class MusicLibraryController
     n = n + 1
     end
   end
+=======
+  list_songs
+  ip = gets.strip
+>>>>>>> 2b031be3758a40185004eaf3f974a6321f31b77f
   
   end
   
